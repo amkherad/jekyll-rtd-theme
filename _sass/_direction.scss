@@ -90,3 +90,26 @@ html[dir="rtl"] {
     }
   }
 }
+
+
+html[highlighter-direction="rtl"] {
+  .highlighter-rouge {
+    direction: rtl;
+
+    .highlight::after {
+      left: 0;
+      right: unset;
+    }
+  }
+}
+
+html[highlighter-direction="ltr"] {
+  .highlighter-rouge {
+    direction: ltr;
+
+    .highlight::after {
+      right: 0;
+      left: unset;
+    }
+  }
+}
