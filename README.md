@@ -45,6 +45,7 @@ Documentation that can guide how to create with Github pages, please refer to [r
 | `lang`        | `en`                 |                   |
 | `direction`   | `auto`               | `ltr` or `rtl`    |
 | `highlighter` | `rouge`              | Cannot be changed |
+| `rouge_dir`   | `inherit`            | `ltr` or `rtl`    |
 
 ```yml
 # folders sort
