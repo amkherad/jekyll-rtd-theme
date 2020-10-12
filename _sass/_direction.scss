@@ -92,7 +92,7 @@ html[dir="rtl"] {
 }
 
 
-html[rouge-dir="rtl"] {
+html[highlighter-direction="rtl"] {
   .highlighter-rouge {
     direction: rtl;
 
@@ -103,7 +103,7 @@ html[rouge-dir="rtl"] {
   }
 }
 
-html[rouge-dir="ltr"] {
+html[highlighter-direction="ltr"] {
   .highlighter-rouge {
     direction: ltr;
 
