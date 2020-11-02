@@ -1,6 +1,5 @@
 title: jekyll-rtd-theme
-lang: en
-description: Opinionated github flavored standard document theme for open source projects, with few options, but everything!
+description: Just another documentation theme compatible with GitHub Pages
 
 theme: null
 
@@ -20,9 +19,10 @@ plugins:
 exclude:
   - Makefile
   - CNAME
+  - LICENSE
+  - update.sh
   - Gemfile
   - Gemfile.lock
-  - LICENSE
   - requirements.txt
   - node_modules
   - package.json

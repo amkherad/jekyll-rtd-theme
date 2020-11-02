@@ -1,9 +1,9 @@
 # jekyll-rtd-theme
 
-![CI](https://github.com/rundocs/jekyll-rtd-theme/workflows/CI/badge.svg?branch=v2)
+![CI](https://github.com/rundocs/jekyll-rtd-theme/workflows/CI/badge.svg?branch=develop)
 ![jsDelivr](https://data.jsdelivr.com/v1/package/gh/rundocs/jekyll-rtd-theme/badge)
 
-Opinionated standard document theme, with few options, but everything!
+Just another documentation theme compatible with GitHub Pages
 
 ## What it does?
 
@@ -63,17 +63,15 @@ google:
   gtag:
   adsense:
 
+mathjax: # this will prased to json, default: {}
+
 mermaid:
-  custom: # mermaid link
-  initialize: # mermaid options, default: {}
+  custom:     # mermaid link
+  initialize: # this will prased to json, default: {}
 
-# also available via file: _include/assets/custom.scss
-scss:
+scss:   # also _includes/extra/styles.scss
+script: # also _includes/extra/script.js
 
-# also available via file: _include/assets/custom.js
-script:
-
-# also available via file: _data/translate.yml
 translate:
   # shortcodes
   danger:
